@@ -16,14 +16,14 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: api
+                name: demo6-folo
                 port:   
                   number: 3500
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: frontend
+                name: demo5-folo
                 port: 
                   number: 3000
       
